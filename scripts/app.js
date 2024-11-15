@@ -13,7 +13,7 @@ window.onload = function () {
 
 // a function that fetch data from external source
 const getData = () => {
-  fetch("/data.json")
+  fetch("https://brukmg.github.io/frontend-mentor-time-tracking-dashboard/data.json")
     .then((response) => response.json())
     .then((json) => {
       loadingIndicator.setAttribute("style", "display: none"); // after success full data fetch loading indicator should not be shown
