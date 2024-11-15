@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <main>
+      <div id="loading-indicator">
+        <h4>Loading...</h4>
+      </div>
+      <section id="main-section">
+        <div class="sidebar">
+          <div class="user-card">
+            <img
+              src="./images/image-jeremy.png"
+              class="avatar"
+              alt="Jeremy Robson"
+            />
+            <div class="username-wrapper">
+              <p>Report for</p>
+              <h1>Jeremy Robson</h1>
+            </div>
+          </div>
+          <div class="filter">
+            <ul>
+              <li class="active" filter-by="daily">Daily</li>
+              <li filter-by="weekly">Weekly</li>
+              <li filter-by="monthly">Monthly</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://yene-link.com/biruk" target="_blank">Biruk Megersa</a>.
+      </div>
+    </footer>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
